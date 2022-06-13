@@ -65,7 +65,7 @@ class CustomHandler(watchdog.events.PatternMatchingEventHandler):
         #retreiving data
         #print(ref.get())
         send_to_firebase_cloud_messaging()
-        time.sleep(0.5)
+        time.sleep(1)
 
 
 
